@@ -1,5 +1,7 @@
 # Fetch MCP Server
 
+[![smithery badge](https://smithery.ai/badge/@jiankaitian/servers)](https://smithery.ai/server/@jiankaitian/servers)
+
 A Model Context Protocol server that provides web content fetching capabilities. This server enables LLMs to retrieve and process content from web pages, converting HTML to markdown for easier consumption.
 
 > [!CAUTION]
@@ -30,6 +32,14 @@ Optionally: Install node.js, this will cause the fetch server to use a different
 
 When using [`uv`](https://docs.astral.sh/uv/) no specific installation is needed. We will
 use [`uvx`](https://docs.astral.sh/uv/guides/tools/) to directly run *mcp-server-fetch*.
+
+### Installing via Smithery
+
+To install servers for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@jiankaitian/servers):
+
+```bash
+npx -y @smithery/cli install @jiankaitian/servers --client claude
+```
 
 ### Using PIP
 
